@@ -7,21 +7,20 @@ author:
   bio: "Research Scientist @DeepMind." # Note: Markdown is allowed
   location: "London, UK"
   links:
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-user-graduate"
+      url: https://scholar.google.co.uk/citations?hl=en&user=zoae83AAAAAJ"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/lberrada"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/leonardberrada"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
-      url: "https://www.linkedin.com/in/leonardberrada/"
 
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
-  - jekyll-feed
   - jemoji
   - jekyll-include-cache
 
