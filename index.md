@@ -1,9 +1,11 @@
 ---
 layout: archive
-title: Home
+title: Hi! I'm Leo.
 classes: wide
+excerpt: <br>
 header:
-  image: /assets/images/banner.jpg
+  overlay_image: /assets/images/banner.jpg
+  overlay_filter: 0.15
 author_profile: true
 ---
 
@@ -30,30 +32,82 @@ Berkeley), and I have some familiarity with fundamental physics (B.Sc. Universit
 
 ## Publications
 
-* Training Neural Networks for and by Interpolation.<br/>
-**Leonard Berrada**, Andrew Zisserman, M. Pawan Kumar.<br/>
-*Under review*.<br/>
+<details>
+  <summary>Training Neural Networks for and by Interpolation.<br/>
+<b>Leonard Berrada</b>, Andrew Zisserman, M. Pawan Kumar.
+<i>Under review</i>.</summary>
+
 [Arxiv link](https://arxiv.org/abs/1906.05661)
 [Github](https://github.com/oval-group/ali-g)
-[Bib](/assets/biblio/alig.bib).
 
-* Deep Frank-Wolfe for Neural Network Optimization.<br/>
-**Leonard Berrada**, Andrew Zisserman, M. Pawan Kumar.<br/>
-*ICLR 2019*.<br/>
+{% highlight bibtex %}
+@InProceedings{berrada2019training,
+  title={Training Neural Networks for and by Interpolation},
+  author={Berrada, Leonard and Zisserman, Andrew and Kumar, M Pawan},
+  journal={arXiv preprint arXiv:1906.05661},
+  year={2019}
+}
+{% endhighlight %}
+
+</details>
+
+<br />
+<details>
+  <summary>Deep Frank-Wolfe for Neural Network Optimization.<br/>
+<b>Leonard Berrada</b>, Andrew Zisserman, M. Pawan Kumar.
+<i>ICLR 2019</i>.</summary>
+
 [Arxiv link](https://arxiv.org/abs/1811.07591)
 [Github](https://github.com/oval-group/dfw)
-[Bib](/assets/biblio/dfw.bib).
 
-* Smooth Loss Functions for Deep Top-k Classification.<br/>
-**Leonard Berrada**, Andrew Zisserman, M. Pawan Kumar.<br/>
-*ICLR 2018*.<br/>
+{% highlight bibtex %}
+@InProceedings{berrada2019deep,
+  author       = {Berrada, Leonard and Zisserman, Andrew and Kumar, M Pawan},
+  title        = {Deep Frank-Wolfe For Neural Network Optimization},
+  journal      = {International Conference on Learning Representations},
+  year         = {2019},
+}
+{% endhighlight %}
+
+</details>
+
+<br />
+<details>
+    <summary>Smooth Loss Functions for Deep Top-k Classification.<br/>
+    <b>Leonard Berrada</b>, Andrew Zisserman, M. Pawan Kumar.
+    <i>ICLR 2018</i>.</summary>
+
 [Arxiv link](https://arxiv.org/abs/1802.07595)
 [Github](https://github.com/oval-group/smooth-topk)
-[Bib](/assets/biblio/smooth_topk.bib).
 
-* Trusting SVM for Piecewise Linear CNNs.<br/>
-**Leonard Berrada**, Andrew Zisserman, M. Pawan Kumar.<br/>
-*ICLR 2017*.<br/>
+{% highlight bibtex %}
+@InProceedings{berrada2018smooth,
+  author       = {Berrada, Leonard and Zisserman, Andrew and Kumar, M Pawan},
+  title        = {Smooth Loss Functions for Deep Top-k Classification},
+  journal      = {International Conference on Learning Representations},
+  year         = {2018},
+}
+{% endhighlight %}
+
+
+</details>
+
+<br />
+<details>
+  <summary>Trusting SVM for Piecewise Linear CNNs.<br/>
+<b>Leonard Berrada</b>, Andrew Zisserman, M. Pawan Kumar.
+<i>ICLR 2017</i>.</summary>
+
 [Arxiv link](https://arxiv.org/abs/1611.02185)
 [Code](https://github.com/oval-group/pl-cnn)
-[Bib](/assets/biblio/pl_cnn.bib).
+
+{% highlight bibtex %}
+@InProceedings{berrada2016trusting,
+  author       = {Berrada, Leonard and Zisserman, Andrew and Kumar, M Pawan},
+  title        = {Trusting SVM for Piecewise Linear CNNs},
+  journal      = {International Conference on Learning Representations},
+  year         = {2017},
+}
+{% endhighlight %}
+
+</details>
