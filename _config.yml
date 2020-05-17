@@ -1,8 +1,6 @@
 remote_theme: mmistakes/minimal-mistakes
 minimal_mistakes_skin: "default"
 
-markdown: CommonMarkGhPages
-
 author:
   name: "Leonard Berrada"
   avatar: "/assets/images/avatar_small.jpg"
@@ -40,4 +38,4 @@ defaults:
       related: false
 
 collections:
-  papers
+  - papers

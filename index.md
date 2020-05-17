@@ -32,7 +32,8 @@ Berkeley), and I have some familiarity with fundamental physics (B.Sc. Universit
 
 ## Publications
 
-{% for paper in site.papers %}
+{% assign ordered_papers = site.papers | sort: "year" | reverse %}
+{% for paper in ordered_papers %}
   <details>
       <summary>{{ paper.title }}.<br/>
     {{ paper.author }}. <i>{{ paper.journal }}</i> ({{ paper.year }}).</summary>
@@ -46,6 +47,5 @@ Berkeley), and I have some familiarity with fundamental physics (B.Sc. Universit
 {{ paper.content }}
 
 </details>
-<br />
-
+<br/>
 {% endfor %}
