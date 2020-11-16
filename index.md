@@ -21,6 +21,7 @@ Berkeley), and I have some familiarity with fundamental physics (B.Sc. Universit
 
 ## News
 
+* I'm glad to have been rated in the top 10% reviewers at NeurIPS 2020.
 * I joined the Verified and Robust Deep Learning team at DeepMind as a research scientist (March 2020).
 * My thesis was accepted without correction by my examiners Andrea Vedaldi and Julien Mairal (25 February 2020). Many thanks to Yougov and the EPSRC for having funded my PhD!
 * I did an internship at DeepMind in the team of James Martens (June 2019 - November 2019).
